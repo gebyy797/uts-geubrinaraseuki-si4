@@ -26,8 +26,8 @@
             <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
         </div>
         <div class="offcanvas-body">
-            <p>Home</p>
-            <p>Produk</p>
+            <p><a href="/" class="text-decoration-none text-dark">Home</a></p>
+            <p><a href="/produk" class="text-decoration-none text-dark">Produk</a></p>
             
             <form class="d-flex mt-3">
                 <input class="form-controll mt-2" type="search" placeholder="Search">
