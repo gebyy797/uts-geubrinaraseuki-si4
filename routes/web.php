@@ -14,3 +14,7 @@ Route::get('/produk', function () {
 
     return view('produk', ['produk' => $produk]);
 });
+
+Route::get('/produk/tambah', function () {
+    return view('tambah_produk');
+});
