@@ -6,6 +6,7 @@
     <title>Form Tambah Produk</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
+
 <body style="background-color: #f8f9fa;">
 
     <nav class="navbar navbar-light" style="background-color: #ffffff; border: none; box-shadow: none;">
@@ -47,7 +48,12 @@
                 </div>
                 <div class="col-md-4">
                     <label class="form-label">Jenis Produk</label>
-                    <input type="text" class="form-control" name="jenis_produk" placeholder="Pilih Produk">
+                    <select class="form-select" name="jenis_produk">
+                        <option value="">Pilih Produk</option>
+                        @foreach ($jenis_produk as $jenis)
+                            <option value="{{ $jenis }}">{{ $jenis }}</option>
+                        @endforeach
+                    </select>
                 </div>
             </div>
 
