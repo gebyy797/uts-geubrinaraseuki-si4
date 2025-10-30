@@ -22,10 +22,17 @@
 
     <div class="offcanvas offcanvas-end" tabindex="-1" id="sideBarCanvas">
         <div class="offcanvas-header">
-            <h5 class="offcanvas-title"></h5>
+            <h5 class="offcanvas-title">UTS Laravel</h5>
             <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
         </div>
         <div class="offcanvas-body">
+            <p>Home</p>
+            <p>Produk</p>
+            
+            <form class="d-flex mt-3">
+                <input class="form-controll mt-2" type="search" placeholder="Search">
+                <button class="btn btn-outline-success ms-3 mt-2" type="button">Search</button>
+            </form>
         </div>
     </div>
 
